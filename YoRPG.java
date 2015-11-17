@@ -1,7 +1,7 @@
 /* The Hamburglars: Sarah Yoon, Gabriel Marks
 APCS1 pd 10
-HW28 -- Ye Olde Role Playing Game
-2015-11-10
+HW31 -- Ye Olde Role Playing Game, Unchained
+2015-11-16
 */
 
 /*=============================================

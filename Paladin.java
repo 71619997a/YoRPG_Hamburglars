@@ -1,7 +1,7 @@
 /* The Hamburglars: Sarah Yoon, Gabriel Marks
    APCS1 pd 10
-   HW29 -- Ye Olde Role Playing Game, Improved
-   2015-11-12
+   HW31 -- Ye Olde Role Playing Game, Unchained
+   2015-11-16
 */
 
 public class Paladin extends Player{
