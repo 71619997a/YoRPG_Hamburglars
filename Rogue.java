@@ -11,8 +11,16 @@ public class Rogue extends Player{
     strength = 100;
     defense = 40;
     attack = 0.7;
-    about = "Rogue";
-    description = "Uses stealth to kill prey, isn't as durable as a warrior but lots of damage.";
   }
-  
+    public String about() {
+	return "Uses stealth to kill prey, isn't as durable as a warrior but lots of damage.";
+    }
+    public void specialize() {
+	defense -=6;
+	attack += 0.3;
+    }
+    public void normalize() {
+	defense +=6;
+	attack -= 0.3;
+    }	
 }

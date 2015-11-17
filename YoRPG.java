@@ -97,7 +97,7 @@ public class YoRPG {
 	else if (charType == 4) {pat = new Rogue(name);}
 	else if (charType == 5) {pat = new Paladin(name);}
 	
-	s = "\n" + pat.about() + ": " + pat.description();
+	s = "\n" + pat.about();
 	s += "\nAre you sure of your selection? \n";
 	s += "\t1: Yes\n";
 	s += "\t2: No\n";

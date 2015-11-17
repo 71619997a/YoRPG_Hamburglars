@@ -11,8 +11,17 @@ public class Ranger extends Player{
     strength = 100;
     defense = 30;
     attack = 0.6;
-    about = "Ranger";
-    description = "Long-range weapon expert, has less health and defense than a warrior but hits harder.";
-  }
-  
+}
+    public String about() {
+	return "Long-range weapon expert, has less health and defense than a warrior but hits harder.";
+    }
+
+    public void specialize() {
+	defense -=3;
+	attack += 0.1;
+    }
+    public void normalize() {
+	defense += 3;
+	attack -= 1;
+    }
 }

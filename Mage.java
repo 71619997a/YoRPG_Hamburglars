@@ -11,8 +11,17 @@ public class Mage extends Player{
     strength = 80;
     defense = 40;
     attack = 0.7;
-    about = "Mage";
-    description = "Magic user, not as strong as a warrior but hits harder with spells.";
   }
-  
+    public String about() {
+	return "Magic user, not as strong as a warrior but hits harder with spells.";
+    }
+
+    public void specialize() {
+	defense -=3;
+	attack += 0.2;
+    }
+    public void normalize() {
+	defense -=3;
+	attack -=0.2;
+    }
 }
